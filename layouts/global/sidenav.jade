@@ -1,0 +1,100 @@
+// Side Navigation Menu
+nav(ng-class='hide-on-small-only')
+  ul.side-nav.fixed.section.table-of-contents
+    li.logo
+      a(aria-label='Navigate to the beginning of the page', href='#intro')
+        img.circle.responsive-img.center-align(src="static/img/simrat-pal-singh.jpeg")
+        p.center-align(style="font-size:medium;font-weight:bold;margin:5px")
+          | Software Engineer II 
+          |<br>Microsoft IDC
+    li.bold
+      a.waves-effect.waves-dark.blue-text.text-darken-4(aria-label='Navigate to the About section', href='#about')
+        i.mdi-social-person.small
+        span About
+    li.bold
+      a.waves-effect.waves-dark.orange-text(aria-label='Navigate to the Education section', href='#education')
+        i.mdi-social-school.small
+        span Education
+    li.bold
+      a.waves-effect.waves-dark.cyan-text(aria-label='Navigate to the Experience section', href='#experience')
+        i.mdi-action-trending-up.small
+        span Experience
+    li.bold
+      a.waves-effect.waves-dark.green-text.text-darken-4(aria-label='Navigate to the Research section', href='#research')
+        i.mdi-action-book.small
+        span Research
+    li.bold
+      a.waves-effect.waves-dark.indigo-text(aria-label='Navigate to the Projects section', href='#projects')
+        i.mdi-av-web.small
+        span Projects
+    li.bold
+      a.waves-effect.waves-dark.purple-text(aria-label='Navigate to the Skills section', href='#skills')
+        i.mdi-av-equalizer.small
+        span Skills
+    li.bold
+      a.waves-effect.waves-dark.yellow-text(aria-label='Navigate to the Awards section', href='#awards')
+        i.mdi-image-brightness-5.small
+        span Awards
+    li.bold
+      a.waves-effect.waves-dark.red-text(aria-label='Navigate to the Hobbies section', href='#hobbies')
+        i.mdi-social-mood.small
+        span Hobbies
+    li.bold
+      a.waves-effect.waves-dark.brown-text(aria-label='Navigate to the Contact section', href='#contact')
+        i.mdi-content-mail.small
+        span Contact
+    li.bold
+      a.waves-effect.waves-dark.grey-text.text-darken-3(aria-label='Open Siddharth\'s resume in a new tab', href='static/Siddharth_Verma_Resume.pdf', target='_blank')
+        i.mdi-action-description.small
+        span Resume
+
+nav.hide-on-large.only.trigger.z-depth-1
+  a.button-collapse(aria-label='Toggle visibility of the mobile navbar', href='#', data-activates='slide-out')
+    i.mdi-navigation-menu
+  .name-title
+    a#name.blue-text.text-darken-4(aria-label='Navigate to the beginning of the page', href='#intro') Siddharth Verma
+    span.brown-text.light
+      | Software Engineer and Machine Learning enthusiast
+
+nav.hide-on-large.only
+  ul#slide-out.side-nav
+    li.bold
+      a.waves-effect.waves-dark.blue-text.text-darken-4(aria-label='Navigate to the About section', href='#about')
+        i.mdi-social-person.small
+        span About
+    li.bold
+      a.waves-effect.waves-dark.orange-text(aria-label='Navigate to the Education section', href='#education')
+        i.mdi-social-school.small
+        span Education
+    li.bold
+      a.waves-effect.waves-dark.cyan-text(aria-label='Navigate to the Experience section', href='#experience')
+        i.mdi-action-trending-up.small
+        span Experience
+    li.bold
+      a.waves-effect.waves-dark.green-text.text-darken-4(aria-label='Navigate to the Research section', href='#research')
+        i.mdi-action-book.small
+        span Research
+    li.bold
+      a.waves-effect.waves-dark.indigo-text(aria-label='Navigate to the Projects section', href='#projects')
+        i.mdi-av-web.small
+        span Projects
+    li.bold
+      a.waves-effect.waves-dark.purple-text(aria-label='Navigate to the Skills section', href='#skills')
+        i.mdi-av-equalizer.small
+        span Skills
+    li.bold
+      a.waves-effect.waves-dark.purple-text(aria-label='Navigate to the Awards section', href='#awards')
+        i.mdi-image-brightness-5.small
+        span Awards
+    li.bold
+      a.waves-effect.waves-dark.purple-text(aria-label='Navigate to the Hobbies section', href='#hobbies')
+        i.mdi-social-mood.small
+        span Hobbies
+    li.bold
+      a.waves-effect.waves-dark.brown-text(aria-label='Navigate to the Contact section', href='#contact')
+        i.mdi-content-mail.small
+        span Contact
+    li.bold
+      a.waves-effect.waves-dark.grey-text.text-darken-3(aria-label='Open Siddharth\'s Resume in a new tab', href='static/Siddharth_Verma_Resume.pdf', target='_blank')
+        i.mdi-action-description.small
+        span Resume
