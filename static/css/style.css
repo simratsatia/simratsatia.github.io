@@ -45,6 +45,9 @@ body {
 a {
 	color: #0d47a1;
 }
+nav ul a{
+	padding:0px;
+}
 blockquote {
 	border-left: 5px solid #795548;
 	color: #795548;
