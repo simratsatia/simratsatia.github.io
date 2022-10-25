@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: siddharth-verma.com
-Token: dc60a3414b707ab49f954d8d1bf9ebf26b9fa04f86dc285319d0216000da8d8c

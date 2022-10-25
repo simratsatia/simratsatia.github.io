@@ -1,1 +1,1 @@
-# My portfolio, created for [siddharth-verma.com](http://siddharth-verma.com)
+# My portfolio, created for [simratsatia.com](http://simratsatia.com)

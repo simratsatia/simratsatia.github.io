@@ -9,20 +9,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/siddharth-verma60/siddharth-verma60.github.io.git"
+    "url": "https://github.com/simratsatia/simratsatia.github.io.git"
   },
   "keywords": [
     "github",
     "portfolio",
     "resume",
-    "siddharth-verma.com"
+    "simratsatia.com"
   ],
-  "author": "Siddharth Verma",
+  "author": "Simrat Pal Singh Satia",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/siddharth-verma60/siddharth-verma60.github.io/issues"
+    "url": "https://github.com/simratsatia/simratsatia.github.io/issues"
   },
-  "homepage": "https://github.com/siddharth-verma60/siddharth-verma60.github.io",
+  "homepage": "https://github.com/simratsatia/simratsatia.github.io",
   "devDependencies": {
     "connect": "^3.7.0",
     "grunt": "^1.5.3",
