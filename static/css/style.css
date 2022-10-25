@@ -116,8 +116,16 @@ ul.side-nav.fixed li.logo {
 	background-color: #eaeaea;
 	border-bottom: 1px solid #ddd;
 	box-sizing: content-box;
-	min-height: 200px;
+	min-height: 210px;
 	padding: 10px 10px 20px;
+}
+
+ul#slide-out.side-nav li.logo {
+	background-color: #eaeaea;
+	border-bottom: 1px solid #ddd;
+	box-sizing: content-box;
+	min-height: 130px;
+	padding: 10px 10px 5px;
 }
 ul.side-nav.fixed li.logo a {
 	font-weight: 200;
@@ -441,7 +449,7 @@ small { display: none;}
     top: 64px;
 	}
 	section#intro {
-	    margin-bottom: -64px;   
+	    /* margin-bottom: -64px;    */
 	}
 	.card .role {
     position: relative;
